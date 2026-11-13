@@ -1,0 +1,27 @@
+# Local environments and editor/cache files
+.venv/
+venv/
+venv_*/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.env
+.env.*
+*.pem
+*.key
+# Working exports and captures
+outputs/
+raw_recordings/
+*.log
+# Device addresses and bench-specific configuration
+config/local*.json
+ABORT
+
+# Historical experiment assets retained for local review
+/examples/cyclic_measurement.tsv
+/examples/legacy_data_audit.json
+/figures/measurement_replay.json
+/figures/measurement_replay.png

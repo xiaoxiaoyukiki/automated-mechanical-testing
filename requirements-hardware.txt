@@ -1,0 +1,6 @@
+# Versions recovered from the existing bench environment; hardware not exercised here.
+# Use Python 3.9 or 3.10 for the historical QCoDeS environment.
+pyserial==3.5
+qcodes==0.46.0
+pyvisa==1.14.1
+# A working platform-specific VISA backend and the Mark-10 USB driver are also required.
